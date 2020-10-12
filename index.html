@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es"> 
+
+	<!-- Esto es un comentario en HTML -->
+
+  <head>  
+
+    <title>Titulo en la pestalla </title> 
+    <meta charset="UTF-8">
+    <meta name="title" content="Título de la WEB">
+    <meta name="description" content="Descripción de la WEB">    
+    <!-- <link href="reset.css"  rel="stylesheet"   type="text/css" > -->
+    <link href="miestilo.css"  rel="stylesheet"   type="text/css" >	
+
+      
+  </head>  
+
+  <body> 
+    <header>
+
+      <h1>Título de la WEB</h1>  
+          <h2>Subtítulo de la WEB 1</h2>  
+            
+    </header>  
+
+    <nav id = "enlaces"> 
+      <a href="https://www.marca.com/">IR SECCIÓN WEB_1</a> |
+      <a href="https://www.as.com/">IR SECCIÓN WEB_2</a>
+    </nav>
+
+     <hr/>
+
+     <h1>Listas</h1>
+     <ul>
+     	<li>elemento1</li>
+     	<li>elemento2</li>
+     	<li>elemento3</li>
+    	</ul>
+
+    <ol>
+     	<li>elemento1</li>
+     	<li>elemento2</li>
+     	<li>elemento3</li>
+    </ol>
+
+     <hr/>
+
+    <section>      
+
+      <article class = "contenido-principal">
+        <h3>CONTENIDO PRINCIPAL</h3>   
+        <p>Este es el contenido principal de la web</p> 
+
+         <a  href= "#" onclick= "alert('Probando JS');"> Botón JS </a> 	
+         <script type="text/javascript">
+			/* Esto es una funcion de prueba */
+			//Esto es una funcion de pruena
+         	function muestra(x,y){
+         		alert(x + " " + y);
+         	}
+
+         	muestra("El resultado es", 10);
+         	
+
+
+         </script>
+
+        <div>
+          <p>Aquí tenéis una imagen.</p> 
+
+          <img  src="http://dominio.com/imagen.jpg" alt="paisaje (imagen no cargada)" />
+          <br/>
+          <br/>
+          <br/>
+          <img  width="100px" src= "C:\Users\pablo\Desktop\dog.png" />
+
+         <!--<video></video>
+         <audio></audio> -->
+
+        </div>
+
+
+      </article>  
+
+
+    </section>
+
+    <aside>
+      <h4>Banner de publicidad</h4>
+      <a href="http://facebook.com">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Facebook_icon.svg" alt="banner de publicidad (imagen no cargada)" width="100px"/>
+      </a>
+
+      <h4>Testimonios</h4>
+      <p>Estoy haciendo esta página.</p>
+    </aside>
+    <br>
+   
+    <br>
+    <form method="post" action="result.php" id="form">
+    	 FORMULARIO
+    	 <br><br>
+    	<input type="text" value="Escribe un texto" /> 
+    	<br>
+    	<input type="checkbox"/>
+    	<br>
+    	<input type="button" value="Haz click" />
+    	<br>
+    	<select name="destino" id="destino">
+    		<option>Opción 1</option>
+    		<option>Opción 2</option>
+    		<option>Opción 3</option>
+    	</select>
+    	<br>
+    	<input type="radio" name="opr" id="opr1"/> Radio1
+    	<br>
+    	<input type="radio" name="opr" id="opr1"/> Radio2
+    	<br>
+    	<input type="radio" name="opr" id="opr1" /> Radio3
+    	<br>
+    	<textarea>Texto de prueba</textarea>
+    	<br>
+    	<input type="submit" value="Enviar"/>
+    	<br><br><br>
+    </form>
+
+	<br><br>
+
+
+    <footer>
+      <h5>Avisos legales</h5>
+      <a href="http://dominio.com/aviso-legal">Política de cookies</a>
+      <h5>Redes sociales</h5>
+      <a href="http://facebook.com/mi-pagina-de-facebook">Mi Facebook</a>
+    </footer>
+
+  </body>  
+
+
+</html>
