@@ -11,3 +11,14 @@ function funJS()4{
  }
 
    
+<<<<<<< HEAD
+=======
+function funJS()5 {
+    alert("Probando");
+}
+
+
+function funJS()6 {
+    alert("Probando");
+}
+>>>>>>> ramaJS
