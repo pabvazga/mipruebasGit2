@@ -11,6 +11,3 @@ function funJS()4{
  }
 
    
-function funJS()5 {
-    alert("Probando");
-}
