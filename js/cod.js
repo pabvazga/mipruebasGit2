@@ -1,3 +1,3 @@
-function foo() {
+function funJS() {
  alert("Probando");
 }
