@@ -14,3 +14,8 @@ function funJS()4{
 function funJS()5 {
     alert("Probando");
 }
+
+
+function funJS()6 {
+    alert("Probando");
+}
