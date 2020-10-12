@@ -1,5 +1,5 @@
 function funJS() {
- alert("Probando");
+ alert("ProbandoMaster");
 }
 
 function funJS()2 {
